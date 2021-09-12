@@ -1,0 +1,115 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .list{
+        display: none;
+       
+    }
+   .box-img{
+       img{
+           width: 100%;
+       }
+   }
+
+   .allcorona{
+       h1{
+           font-size: 50px !important;
+       }
+       p{
+           text-align: center;
+       }
+       button{
+       
+        margin-left: 40px;
+       }
+   }
+
+  
+
+  
+   
+       
+   
+    
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .list{
+        display: none;
+       
+    }
+    .list-button{
+        display: none;
+    }
+
+    #country{
+        .c-all{
+            margin: 10px;
+        }
+    }
+    .allcorona{
+        h1{
+            font-size: 55px !important;
+        }
+    }
+    
+   
+ }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+    .list{
+        display: none;
+       
+       
+    }
+    #country{
+        .c-all{
+            margin: 10px;
+        }
+    }
+
+   
+   
+   
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1290px) and (min-width: 992px) { 
+    .list{
+        ul{
+            li{
+                a{
+                   font-size: 12px !important;
+                }
+            }
+        }
+    }
+
+    .allcorona{
+        h1{
+            font-size: 55px !important;
+        }
+    }
+
+    #finish{
+        .fbox{
+            h6{
+                font-size: 11px !important;
+            }
+            li{
+                padding: 7.px !important;
+                a{
+                    font-size: 11px !important;
+                }
+            }
+        }
+    }
+    
+   
+   
+ }
+
+
